@@ -1,0 +1,21 @@
+table {
+  width: 100%
+}
+
+td.unselected {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ca1800;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+}
+
+td.selected {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #0d8a1e;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+}
