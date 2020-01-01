@@ -1,5 +1,10 @@
+div {
+  position: relative;
+  overflow: hidden;
+}
+
 table {
-  width: 100%
+  width: 100%;
 }
 
 td.unselected {
@@ -18,4 +23,18 @@ td.selected {
   text-align: center;
   vertical-align: middle;
   font-size: 50px;
+}
+
+ul > li {
+  display: inline-block;
+  /* You can also add some margins here to make it look prettier */
+  *display:inline;
+  margin: 5px;
+  /* this fix is needed for IE7- */
+}
+
+li {
+  text-align: center;
+  vertical-align: middle;
+  font-size: xx-large;
 }

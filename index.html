@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Bingo</title>
-    <link rel="stylesheet" href="index.css" type="text/css">
-    <script src="index.js" defer></script>
-  </head>
-  <body>
-      <table id="gameTable">
 
-      </table>
+<head>
+  <meta charset="utf-8">
+  <title>Bingo</title>
+  <link rel="stylesheet" href="index.css" type="text/css">
+  <script src="index.js" defer></script>
+</head>
 
-      <button id="stopButton"
-  </body>
+<body>
+  <div id="table">
+    <table id="gameTable"></table>
+  </div>
+  <div id="buttons">
+    <button id="playButton" onclick="startGame()">Play</button>
+    <button id="stopButton" onclick="stopGame()">Stop</button>
+    <select id="voiceSelect"></select>
+  </div>
+  <div id="numbers">
+    <ul id="numbersList">
+
+    </ul>
+  </div>
+</body>
+
 </html>
